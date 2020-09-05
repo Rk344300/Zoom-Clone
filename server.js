@@ -32,4 +32,4 @@ io.on('connection', socket =>{
 })
 
 
-server.listen(4010);
+server.listen(process.env.PORT||4010);
